@@ -25,6 +25,8 @@ import org.apache.cordova.PluginResult;
  * 2. (after setting up correct intent filters for Cordova applications), Android
  * intents can be handled by Cordova web applications.
  *
+ * @author boris@borismus.com
+ *
  */
 public class WebIntent extends CordovaPlugin {
 

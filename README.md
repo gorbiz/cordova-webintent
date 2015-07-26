@@ -10,7 +10,7 @@ Phonegap/Cordova 2.X version available at the [WebIntent](https://github.com/pho
 
 2. Confirm that the following is in your `res/xml/config.xml` file:
 
-`<plugin name="WebIntent" value="com.borismus.webintent.WebIntent" />`
+`<plugin name="WebIntent" value="com.gorbiz.webintent.WebIntent" />`
 
 ## Sample code
 

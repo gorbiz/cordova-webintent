@@ -1,4 +1,4 @@
-package com.borismus.webintent;
+package com.gorbiz.webintent;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -18,15 +18,13 @@ import org.apache.cordova.CordovaResourceApi;
 import org.apache.cordova.PluginResult;
 
 /**
- * WebIntent is a PhoneGap plugin that bridges Android intents and web
+ * WebIntent is a Cordova plugin that bridges Android intents and web
  * applications:
- * 
- * 1. web apps can spawn intents that call native Android applications. 2.
- * (after setting up correct intent filters for PhoneGap applications), Android
- * intents can be handled by PhoneGap web applications.
- * 
- * @author boris@borismus.com
- * 
+ *
+ * 1. web apps can spawn intents that call native Android applications.
+ * 2. (after setting up correct intent filters for Cordova applications), Android
+ * intents can be handled by Cordova web applications.
+ *
  */
 public class WebIntent extends CordovaPlugin {
 

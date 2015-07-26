@@ -164,7 +164,6 @@ public class WebIntent extends CordovaPlugin {
     @Override
     public void onNewIntent(Intent intent) {
 
-        super.onNewIntent(intent);
         CordovaActivity activity = ((CordovaActivity)this.cordova.getActivity());
         activity.setIntent(intent);
 
